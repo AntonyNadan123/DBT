@@ -1,0 +1,6 @@
+sources:
+  - name: Jaffleshop
+    database : dev
+    schema : raw
+    tables:
+      - name: customer
