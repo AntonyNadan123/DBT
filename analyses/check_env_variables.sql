@@ -1,0 +1,1 @@
+select * from {{ env_var('DBT_DATABASE') }}.raw.orders
