@@ -1,6 +1,6 @@
 sources:
   - name: Jaffleshop
-    database: dev
+    database: "{{ env_var('DBT_DATABASE') }}"
     schema: raw
     tables:
       - name: customer
