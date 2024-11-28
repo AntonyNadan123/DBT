@@ -25,4 +25,5 @@ sources:
               - not_null
               - accepted_values:
                   values: ['ORDER DELIVERED','REFUNDED','ORDER RETURNED','ORDER PLACED','ORDER CANCELLED','OUT FOR DELIVERY']
+      - name: fun_test
             
