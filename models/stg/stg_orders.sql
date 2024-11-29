@@ -5,4 +5,4 @@ ord_status,
 product_name,
 price,
 VAT 
-from {{ ref('src_orders') }}
+from {{ ref('src_orders') }} 
