@@ -1,1 +1,1 @@
-select * from {{ env_var('DBT_DATABASE') }}.raw.orders
+select * from {{ env_var('DBT_DATABASE') }}.tpch_sf1.orders 
